@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "davidanson.vscode-markdownlint",
+    "eg2.vscode-npm-script",
+    "webhint.vscode-webhint",
+    "sissel.json-script-tag",
+    "esbenp.prettier-vscode",
+    "znck.grammarly",
+    "redhat.vscode-yaml",
+    "arcanis.vscode-zipfs"
+  ]
+}
