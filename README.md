@@ -1,4 +1,4 @@
-# HackUPC landing page
+# HackUPC organizers recluiting page
 
 ![HackUPC landing preview](src/assets/ogimage.png)
 
