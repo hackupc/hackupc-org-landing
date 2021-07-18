@@ -52,8 +52,9 @@ If you push something that doesn't build, don't worry, it won't be published.
 
 ## Support
 
-If you need help understanding something of this repo you can ask the previous developers. The ones that made the 2021 edition are:
+If you need help understanding something of this repo you can ask the previous developers. The ones that made the 2022 edition are:
 
+- Carlota Catot Bragòs: Slack `@Carlota` [carlotacb.dev](https://carlotacb.dev)
 - Maurici Abad Gutierrez: Slack `@mauri` [mauriciabad.com](https://mauriciabad.com/)
 
 ## License
