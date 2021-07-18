@@ -1,8 +1,10 @@
 # HackUPC organizers recluiting page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/35f0719a-3232-4408-a714-48aa164f5b90/deploy-status)](https://app.netlify.com/sites/hackupc-recruiting/deploys)
+
 ![HackUPC landing preview](src/assets/ogimage.png)
 
-Hi! This is the code of the organizer landing page of HackUPC
+Hi! This is the code of the recruiting organizers landing page of HackUPC
 
 ## Develop
 
