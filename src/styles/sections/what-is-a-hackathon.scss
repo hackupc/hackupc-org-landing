@@ -1,0 +1,196 @@
+.section--what-is-a-hackathon {
+  background-color: $c-bg-dark;
+}
+
+.content__wrapper--what-is-a-hackathon {
+  padding-top: 0;
+}
+
+$card-font-variation: 2px;
+$card-font-base: 16px;
+$card-padding-variation-h: 4 * 16px;
+$card-padding-variation-v: 1 * 16px;
+$card-padding-base: 2 * 16px;
+
+$breakpoint-small-screen: 500px;
+$breakpoint-mid-small-screen: 600px;
+
+.card--big {
+  padding: clamp(
+      #{$card-padding-base},
+      calc(
+        #{100vw * $card-padding-variation-v / $breakpoint-small-screen} + #{(
+            $card-padding-base - $card-padding-variation-v
+          )}
+      ),
+      #{$card-padding-base + $card-padding-variation-v}
+    )
+    clamp(
+      #{$card-padding-base},
+      calc(
+        #{100vw * $card-padding-variation-h / $breakpoint-small-screen} + #{(
+            $card-padding-base - $card-padding-variation-h
+          )}
+      ),
+      #{$card-padding-base + $card-padding-variation-h}
+    );
+  font-size: clamp(
+    #{$card-font-base},
+    calc(
+      #{$card-font-base - $card-font-variation} + #{(
+          100vw * $card-font-variation / $breakpoint-small-screen
+        )}
+    ),
+    #{$card-font-base + $card-font-variation}
+  );
+}
+
+.card--outline {
+}
+
+.card--mission {
+  display: grid;
+  border: solid 0.3333rem $c-bg-light;
+  margin-top: 2rem;
+  background-color: $c-bg-dark;
+  grid-template: auto / auto auto;
+  place-content: center;
+  place-items: center;
+
+  @media only screen and (max-width: $breakpoint-mid-small-screen) {
+    grid-template: auto auto / auto;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+
+    > img,
+    > svg {
+      width: 100%;
+      vertical-align: middle;
+    }
+
+    .mySlides {
+      display: none;
+      text-align: center;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      border-radius: 0 3px 3px 0;
+      color: #ffff;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.6s ease;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }
+}
+
+.card__title {
+  margin: 0 -0.5rem 1rem 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card__text {
+  margin: 0;
+  text-align: justify;
+
+  strong {
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    vertical-align: text-bottom;
+  }
+}
+
+.cards__columns {
+  display: flex;
+  flex: 1 1 20rem;
+}
+
+$card-padding-base-small: 16px;
+$card-padding-variation-h-small: 2 * 16px;
+
+.card--small {
+  padding: clamp(
+      #{$card-padding-base-small},
+      calc(
+        #{100vw * $card-padding-variation-v / $breakpoint-small-screen} + #{(
+            $card-padding-base-small - $card-padding-variation-v
+          )}
+      ),
+      #{$card-padding-base-small + $card-padding-variation-v}
+    )
+    clamp(
+      #{$card-padding-base-small},
+      calc(
+        #{100vw * $card-padding-variation-h-small / $breakpoint-small-screen} + #{(
+            $card-padding-base-small - $card-padding-variation-h-small
+          )}
+      ),
+      #{$card-padding-base-small + $card-padding-variation-h-small}
+    );
+  font-size: clamp(
+    #{$card-font-base},
+    calc(
+      #{$card-font-base - $card-font-variation} + #{(
+          100vw * $card-font-variation / $breakpoint-small-screen
+        )}
+    ),
+    #{$card-font-base + $card-font-variation}
+  );
+}
+
+.card__video {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  animation-duration: 1.5s;
+  animation-name: fade;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
