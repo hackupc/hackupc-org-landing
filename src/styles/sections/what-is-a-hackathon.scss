@@ -51,7 +51,7 @@ $breakpoint-mid-small-screen: 600px;
 
 .card--mission {
   display: grid;
-  border: solid 0.3333rem $c-bg-light;
+  border: solid 0.3333rem $c-primary;
   margin-top: 2rem;
   background-color: $c-bg-dark;
   grid-template: auto / auto auto;
@@ -82,7 +82,7 @@ $breakpoint-mid-small-screen: 600px;
 
     /* Fading animation */
     .fade {
-      animation-duration: 1s;
+      animation-duration: 0.5s;
       animation-name: fade;
     }
 
@@ -110,13 +110,12 @@ $breakpoint-mid-small-screen: 600px;
       position: absolute;
       top: 50%;
       width: auto;
-      padding: 16px;
+      padding: 10px;
       margin-top: -22px;
-      background-color: #ec6162;
+      background-color: #E94662;
       border-radius: 0 3px 3px 0;
       color: #ffff;
-      cursor: pointer;
-      font-size: 18px;
+      font-size: 12px;
       font-weight: bold;
       transition: 0.6s ease;
     }
@@ -130,7 +129,7 @@ $breakpoint-mid-small-screen: 600px;
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover,
     .next:hover {
-      background-color: #ec61616c;
+      background-color: rgba(233, 70, 98, 0.5);
     }
   }
 }

@@ -11,7 +11,6 @@ $fade-height: 100px;
   box-sizing: border-box;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 70px;
   background-color: $c-bg-dark;
   place-items: center;
 }
@@ -26,45 +25,37 @@ $fade-height: 100px;
 
   &__fade {
     position: absolute;
-    z-index: 1;
     right: 0;
-    bottom: 0;
     left: 0;
-    height: $fade-height;
-    background: linear-gradient(
-      to bottom,
-      transparent,
-      cubic-bezier(0, 0, 0.7, 1),
-      $c-bg-dark
-    );
-    content: '';
-    pointer-events: none;
+    width: 35%;
+    opacity: 40%;
+    margin: 0 auto;
   }
 }
 
 .title {
-  display: inline-block;
-  color: $c-txt-light;
-  font-size: clamp(4rem, 15vw, 6rem);
-  line-height: 0.71;
-  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
-  text-transform: uppercase;
+display: inline-block;
+color: $c-txt-light;
+font-size: clamp(4rem, 15vw, 6rem);
+line-height: 0.71;
+text-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+text-transform: uppercase;
 
-  &__title {
-    margin: 0 0 0.2em -0.08em;
-    font-size: 0.8em;
-    font-weight: 400;
-    text-align: center;
-  }
+&__title {
+margin: 0 0 0.2em -0.08em;
+font-size: 0.8em;
+font-weight: 400;
+text-align: center;
+}
 
-  &__beginning {
-    display: block;
-    font-size: 0.6em;
-    line-height: 1.5;
-    text-transform: initial;
-  }
+&__beginning {
+display: block;
+font-size: 0.6em;
+line-height: 1.5;
+text-transform: initial;
+}
 }
 
 .align-center {
-  text-align: center;
+text-align: center;
 }
