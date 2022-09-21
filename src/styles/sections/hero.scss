@@ -34,28 +34,28 @@ $fade-height: 100px;
 }
 
 .title {
-display: inline-block;
-color: $c-txt-light;
-font-size: clamp(4rem, 15vw, 6rem);
-line-height: 0.71;
-text-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
-text-transform: uppercase;
+  display: inline-block;
+  color: $c-txt-light;
+  font-size: clamp(4rem, 15vw, 6rem);
+  line-height: 0.71;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
 
-&__title {
-margin: 0 0 0.2em -0.08em;
-font-size: 0.8em;
-font-weight: 400;
-text-align: center;
-}
+  &__title {
+    margin: 0 0 0.2em -0.08em;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-align: center;
+  }
 
-&__beginning {
-display: block;
-font-size: 0.6em;
-line-height: 1.5;
-text-transform: initial;
-}
+  &__beginning {
+    display: block;
+    font-size: 0.6em;
+    line-height: 1.5;
+    text-transform: initial;
+  }
 }
 
 .align-center {
-text-align: center;
+  text-align: center;
 }
