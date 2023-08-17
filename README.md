@@ -12,7 +12,7 @@ Hi! This is the code of the recruiting organizers landing page of HackUPC
 Clone the repo, install [Node](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/), and run `yarn install` the first time:
 
 ```sh
-git clone git@github.com:hackupc/hackupc-landing.git
+git clone git@github.com:hackupc/recruiting-landing.git
 cd hackupc-landing
 
 npm install -g yarn
